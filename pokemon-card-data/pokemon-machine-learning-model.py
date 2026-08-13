@@ -22,8 +22,6 @@ WEIGHT_DECAY = 1e-5
 
 EPOCHS = 1000
 
-# Your "date" column is measured in hours.
-# Convert hours -> days for the ODE.
 TIME_SCALE = 24.0
 
 DEVICE = torch.device(
